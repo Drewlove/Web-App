@@ -1,0 +1,160 @@
+/*Basic Layout: Body, Header, Footer, floats and tabs*/
+
+body {
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+	min-width: 875px;
+}
+
+.container{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float:right;
+}
+
+header {
+	 background: white; 
+	 overflow: auto; 
+	}
+
+header .float-left{
+	float: left;
+	width: 570px; 
+	color: red; 
+}
+
+header .float-right{
+	width: 285px;
+	margin-top: 10px;
+}
+
+main {
+	background: white;
+}
+
+.tabs a span{
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active{
+	background: #eee;
+}
+
+.mainContentAdd {
+	display: inline-block;
+}
+
+.inputBox {
+	height: 35px;
+	width: 125px;
+	margin: 10px;
+	font-size: 18px;
+}
+
+.inputButton{
+  height: 35px;
+  width: 50px; 
+  color: red; 
+  background: #ddd;
+  border: 1px outset black;
+  font-weight: bold; 
+}
+
+.addedToDo{
+	margin-left: 10px;
+	font-size: 18px;
+	color: red;
+}
+
+.inputButton:hover {
+  cursor: pointer; 
+  box-shadow: 2px 2px 5px black;
+}
+
+.content li{
+	margin-bottom: 10px;
+}
+
+footer ul{
+	width: 285px;
+}
+
+.sitemap-block{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+/*Font-Sizes, colors, spacing*/
+h1{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 10px;
+}
+
+h1{
+	font-size: 4.5em;
+}
+
+h2{
+	font-size: 2.5em;
+}
+
+h3{
+	font-size: 2em;
+}
+
+h4{
+	font-size: 1.5em;
+}
+
+h5{
+	font-size: 1.25em;
+}
+
+a{
+	color: red; 
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	margin-top: 10px; 
+}
+
+li{
+	margin-top: 5px;
+}
+
+img{
+	margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
