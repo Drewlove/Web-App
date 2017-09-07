@@ -49,9 +49,6 @@ main {
 	padding: 5px;
 }
 
-img{
-	float: right;
-}
 .tabs a span.active{
 	background: #eee;
 }
