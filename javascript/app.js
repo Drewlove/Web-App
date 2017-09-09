@@ -1,6 +1,14 @@
+//accessing JSON 
+
+/*
+Shut down Chrome
+Type the following into the console
+
+open -a Google\ Chrome --args --allow-file-access-from-files
+
+*/
 var main = function (toDoObjects) {
     "use strict"; 
-    };
 
 
     var toDos = ["Get groceries",
@@ -60,4 +68,12 @@ var main = function (toDoObjects) {
         });
     });
     $(".tabs a:first-child span").trigger("click");
-//};
+};
+
+$(document).ready(function(){
+    $.getJSON("todos.JSON", function(toDoObjects){
+        main(toDoObjects); 
+    })
+}); 
+
+
