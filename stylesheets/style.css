@@ -6,6 +6,12 @@ body {
 	min-width: 875px;
 }
 
+body .container{
+	clear: both;
+	content: '';
+	display: block;
+}
+
 .container{
 	margin-left: 10px;
 	margin-right: 10px;
@@ -21,7 +27,6 @@ body {
 
 header {
 	 background: white; 
-	 overflow: auto; 
 	}
 
 header .float-left{
@@ -32,11 +37,17 @@ header .float-left{
 
 header .float-right{
 	width: 285px;
-	margin-top: 10px;
 }
 
 main {
 	background: white;
+}
+
+main .container:after {
+	clear: both;
+	display: block;
+	content: '';
+
 }
 
 .tabs a span{
@@ -52,7 +63,6 @@ main {
 .tabs a span.active{
 	background: #eee;
 }
-
 
 .inputBox {
 	height: 35px;
